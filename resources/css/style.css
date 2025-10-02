@@ -1,0 +1,90 @@
+/* BASE STYLES */
+body {
+    /* Sets the dark gray/black background for the entire page */
+    background-color: #000000; 
+    /* Sets the default font family for the whole page */
+    font-family: 'Verdana', sans-serif;
+    color: #ffffff; /* Default white text color */
+    margin: 0;
+    text-align: center; /* Centers all block-level content (like paragraphs and headings) by default */
+}
+
+/* HEADER STYLING (The main title and top link) */
+.header-content h1 {
+    /* "Discover hidden places..." text */
+    font-weight: normal; /* Normal Weight */
+    font-size: 50px; /* Large size */
+    color: white;
+    text-align: center;
+    padding-top: 50px; /* Add some space at the top */
+}
+
+
+.header-content a {
+    /* "Download Excursion (Coming soon!)" link */
+    font-size: 16px; 
+    color: #6495ED; /* Aquamarine/blue-like color */
+    text-decoration: none; /* Remove underline */
+}
+
+
+/* VIDEO CONTAINER (To manage the width of the phone/video section) */
+.video-container {
+    margin: 50px auto;
+    width: 300px; /* Adjust as needed to mimic the phone's width */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes any extra space below the video element */
+}
+
+/* SUPPORTING TEXT (Your personal travel guide) */
+.supporting-text h2 {
+    /* "Your personal travel guide" text */
+    font-weight: 300; /* Lighter weight */
+    font-size: 42px;
+}
+
+.supporting-text p {
+    /* "Excursion remembers places..." text */
+    font-size: 21px;
+    color: #A9A9A9; /* Gray color */
+}
+
+/* IMAGE SECTION */
+.image-section img {
+    /* Makes sure the image is responsive and fits the screen */
+    max-width: 100%; 
+    height: auto;
+    margin-top: 50px;
+}
+
+/* FOOTER DOWNLOAD SECTION */
+.footer-download .icon-section img {
+    /* Style for the white cellphone icon */
+    height: 70px; /* Adjust size as needed */
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.footer-download a {
+    /* Link color at the bottom */
+    font-size: 16px; 
+    color: #6495ED; 
+    text-decoration: none; 
+}
+
+/* FINAL FOOTER (Small text) */
+footer {
+    padding: 20px 0;
+    text-align: right; /* Aligns the copyright text to the right */
+}
+
+.copyright {
+    /* Copyright text style */
+    font-size: 16px;
+    color: #A9A9A9; /* Gray color */
+    padding-right: 20px; /* Pushes it away from the edge */
+}
